@@ -1,0 +1,57 @@
+Screen Definition:
+
+If Quiz:
+Course Title,
+Assessment Title,
+Time Left,
+Q1:Option-A,Option-B,Option-C,Option-D
+
+Button: Previous,Next,Submit
+
+If Assignment:
+Course Title,
+Assignment Title,
+Due Date,
+Instructions,
+Upload : Chose File
+Comments:
+
+Button:Submit Assignment,Save Draft
+
+User Story:
+
+As a student, I want to take different types of assessments (quizzes and assignments) and receive I can track my progress effectively.
+
+Acceptance Criteria:
+
+If Quiz:
+
+On clicking the Previous button, the system should navigate to the previous question, automatically save the current answer, and disable the button on the first question.
+
+On clicking the Next button, the system should navigate to the next question, automatically save the current answer, and disable the button on the last question.
+
+On clicking the Submit button, the system should show the warning “Please attempt all questions” if any question is unanswered.
+
+The system should display a confirmation message “Submit assessment?” before final submission.
+
+After confirmation, the system should calculate the score immediately.
+
+The system should display the results page with correct and incorrect answers.
+
+The system should update the learner’s course progress automatically.
+
+If Assignment:
+
+If no file is selected, the system should show the error “Please upload required file.”
+
+If an invalid file format is uploaded, the system should show the error “File type not supported.”
+
+If the file exceeds the size limit, the system should show the error “File too large.”
+
+Upon successful validation, the system should upload the file successfully.
+
+After upload, the system should show the confirmation message “Assignment Submitted.”
+
+The system should send a notification to the mentor after submission.
+
+On clicking the Save Draft button, the system should temporarily store uploaded files and learner comments.
