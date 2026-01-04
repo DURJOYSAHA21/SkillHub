@@ -1,0 +1,22 @@
+Screen Definition:
+Drop down list
+Language list
+save button
+cancel button
+
+User Story:
+As a user I want choose the language which I can understand properly and also able to change language whenever I need
+
+Acceptance Criteria:
+
+The dropdown list should have language list
+
+Pressing save button should  change the interface to that language which is selected
+
+If no language is selected it should display “Please Select a Language”
+
+The system should remember the selected language
+
+The system should store the selected language to the DB
+
+The cancel button should take to the previous page and keep the website in the previous language
