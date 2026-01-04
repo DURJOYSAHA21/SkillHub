@@ -1,0 +1,11 @@
+User Story:
+As a student, I want chat messages to deliver instantly so that my conversation with the mentor flows naturally without frustrating delays.
+
+As a mentor, I want the chat interface to load quickly so that I can respond to student queries immediately during my busy schedule.
+
+Acceptance Criteria :
+Chat messages should deliver instantly
+25MB file should uploads complete within 30 seconds
+Chat window should  loads in less than 3 seconds
+Typing indicators, read receipts, and message timestamps should update in real-time without noticeable delay.
+Users should be able to scroll and view older messages without lag.
