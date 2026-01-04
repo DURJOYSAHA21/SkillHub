@@ -1,0 +1,13 @@
+User story: As a user, I want the website to work on different devices and browsers so the user can get the access of the website anytime without any issues.
+
+Acceptance criteria:
+
+The website should work correctly on all major web browsers such as Chrome and Edge
+
+The website should function properly on different devices such as desktop and mobile.
+
+The layout and fonts should render consistently across all supported browsers and devices.
+
+All features and functionalities should work without errors on supported browsers.
+
+If any browser-specific issue occurs, the system should display content properly without breaking core functionality.
