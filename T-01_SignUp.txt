@@ -1,0 +1,32 @@
+TASK ID: T-01
+FEATURE NAME: User Signup
+
+SCREEN DEFINITION:
+- Name
+- Email address
+- Phone number
+- Password
+- Confirm password
+- Select user role
+- Preferred language
+- Already have an account? (Login link)
+- Signup button
+
+USER STORY:
+As a new user, I want to create an account on the platform by providing my basic
+information such as name, email, password, preferred language, and role so that I
+can access the system. I also want to verify my email using an OTP to ensure my
+account is secure.
+
+ACCEPTANCE CRITERIA:
+1. Email must be valid and unregistered, otherwise show "Email already used".
+2. Password must be at least 8 characters, otherwise show "Invalid password".
+3. Confirm password must match password, otherwise show "Password does not match".
+4. User role must be selected, otherwise show "Please select a user role".
+5. Phone number must be valid (11 digits for Bangladesh), otherwise show
+   "Invalid phone number" or "Phone number already used".
+6. Preferred language must be selected, otherwise show "Please select a language".
+7. On successful signup, store credentials and redirect to Login page.
+8. Clicking Login link redirects to Login page.
+
+STATUS: Implemented
