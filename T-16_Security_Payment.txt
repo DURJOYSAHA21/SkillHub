@@ -1,0 +1,10 @@
+User Story:
+
+As a learner, I want my transaction to be secure and all my payment related information stay protected.
+
+Acceptance Criteria :
+
+-System should store all payment data encrpyted
+-The system should log all the transactions securely
+-learner should able to complete payment after proper authentication
+-In case of failed authentication or security breach, the system should display an error message: “Payment cannot be processed. Please try again or contact support.”
